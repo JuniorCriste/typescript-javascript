@@ -14,7 +14,7 @@ console.log(result);
 console.log(result2);
 
 
-const hora: number = 15;
+const hora: number = 19;
 
 console.log( hora < 18 ? "Boa Tarde" : "Boa Noite");
 
@@ -33,6 +33,7 @@ if (hora < 12) {
 } else {
     console.log("BOA TARDE");
 }
+
 
 
 if (hora < 12) {
