@@ -43,3 +43,30 @@ if (hora < 12) {
 } else {
     console.log("BOA NOITE!");
 }
+
+console.log("- - - - - - -");
+
+/* Switch Case */
+let dia : string;
+switch ( new Date().getDate()) {
+    case 0: 
+    dia = "Domingo";
+    break;
+    case 1: 
+    dia = "Segunda";
+    break;
+    case 2: 
+    dia = "Terça";
+    break;
+    case 3: 
+    dia = "Quarta";
+    break;
+    case 4: 
+    dia = "Quinta";
+    break;
+    case 5: 
+    dia = "Sexta";
+    break;
+    case 6: 
+    dia = "Sábado";
+}

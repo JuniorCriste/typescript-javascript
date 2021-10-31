@@ -29,3 +29,28 @@ else if (hora >= 12 && hora <= 17) {
 else {
     console.log("BOA NOITE!");
 }
+console.log("- - - - - - -");
+/* Switch Case */
+var dia;
+switch (new Date().getDate()) {
+    case 0:
+        dia = "Domingo";
+        break;
+    case 1:
+        dia = "Segunda";
+        break;
+    case 2:
+        dia = "Terça";
+        break;
+    case 3:
+        dia = "Quarta";
+        break;
+    case 4:
+        dia = "Quinta";
+        break;
+    case 5:
+        dia = "Sexta";
+        break;
+    case 6:
+        dia = "Sábado";
+}
