@@ -98,7 +98,7 @@ while (contador < 10) {
 /* Laço do/while */
 contador = 0;
 do {
-    console.log(contador);
+    console.log("número " + contador);
     contador += 5;
 } while(contador <= 100);
 
