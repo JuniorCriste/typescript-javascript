@@ -19,5 +19,26 @@ const hora: number = 15;
 console.log( hora < 18 ? "Boa Tarde" : "Boa Noite");
 
 console.log("- - - - - - -");
-/* Condicionais */
 
+
+/* Condicionais */
+if (hora < 12) {
+    console.log("BOM DIA!");
+}
+
+
+
+if (hora < 12) {
+    console.log("BOM DIA!");
+} else {
+    console.log("BOA TARDE");
+}
+
+
+if (hora < 12) {
+    console.log("BOM DIA!");
+} else if (hora >= 12 && hora <= 17 ){
+    console.log("BOA TARDE");
+} else {
+    console.log("BOA NOITE!");
+}
