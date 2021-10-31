@@ -32,7 +32,7 @@ else {
 console.log("- - - - - - -");
 /* Switch Case */
 var dia;
-switch (new Date().getDate()) {
+switch (new Date().getDay()) {
     case 0:
         dia = "Domingo";
         break;
@@ -54,3 +54,4 @@ switch (new Date().getDate()) {
     case 6:
         dia = "Sábado";
 }
+console.log(dia);
