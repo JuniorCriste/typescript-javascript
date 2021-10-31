@@ -64,3 +64,9 @@ var contador;
 for (contador = 1; contador < 10; contador++) {
     console.log("Contador é: " + contador);
 }
+/* Laço while */
+contador = 0;
+while (contador < 10) {
+    console.log(contador);
+    contador += 2;
+}
