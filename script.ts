@@ -10,3 +10,8 @@ let media2 = (num1, num2) => (num1 + num2) / 2;
 
 console.log(result);
 console.log(result2);
+
+
+const hora: number = 18;
+
+console.log( hora < 18 ? "Boa Tarde" : "Boa Noite");
