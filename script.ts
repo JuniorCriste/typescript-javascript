@@ -1,4 +1,5 @@
-/* Funções e Variáveis */
+/* 1. Funções e Variáveis */
+console.log("1. Variáveis e Funções");
 
 function media(num1 : number, num2 : number) : number{
     return (num1 + num2) / 2;
@@ -21,7 +22,8 @@ console.log( hora < 18 ? "Boa Tarde" : "Boa Noite");
 console.log("- - - - - - -");
 
 
-/* Condicionais */
+/* 2. Condicionais */
+console.log("2. Condicionais");
 if (hora < 12) {
     console.log("BOM DIA!");
 }
@@ -73,3 +75,8 @@ switch ( new Date().getDay()) {
 
 
 console.log(dia);
+
+
+
+/* 3. Repetições */
+console.log("3. Repetições");
