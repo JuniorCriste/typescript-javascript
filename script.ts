@@ -1,3 +1,5 @@
+/* Funções e Variáveis */
+
 function media(num1 : number, num2 : number) : number{
     return (num1 + num2) / 2;
 }
@@ -15,3 +17,7 @@ console.log(result2);
 const hora: number = 15;
 
 console.log( hora < 18 ? "Boa Tarde" : "Boa Noite");
+
+console.log("- - - - - - -");
+/* Condicionais */
+
