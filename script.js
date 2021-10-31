@@ -31,7 +31,6 @@ else if (hora >= 12 && hora <= 17) {
 else {
     console.log("BOA NOITE!");
 }
-console.log("- - - - - - -");
 /* Switch Case */
 var dia;
 switch (new Date().getDay()) {
@@ -57,5 +56,11 @@ switch (new Date().getDay()) {
         dia = "Sábado";
 }
 console.log(dia);
+console.log("- - - - - - -");
 /* 3. Repetições */
 console.log("3. Repetições");
+/* Laço for */
+var contador;
+for (contador = 1; contador < 10; contador++) {
+    console.log("Contador é: " + contador);
+}
