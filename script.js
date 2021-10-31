@@ -70,3 +70,9 @@ while (contador < 10) {
     console.log(contador);
     contador += 2;
 }
+/* Laço do/while */
+contador = 0;
+do {
+    console.log(contador);
+    contador += 5;
+} while (contador <= 100);
