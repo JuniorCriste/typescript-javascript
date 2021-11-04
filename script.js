@@ -123,3 +123,11 @@ var Modelo = /** @class */ (function (_super) {
 var carromod = new Modelo("Chevrolet", "Blazer");
 carromod.mostre();
 console.log(carromod.mostre());
+/* 5. Conceitos */
+// Requisições Assíncronas: No JavaScript a programação é em thread único, ou seja, ele faz apenas uma rotina
+//por vez.  Usando JavaScript assíncrono, é possível executar longas solicitações de rede sem bloquear a
+//thread principal, ou seja sem bloquear a página Web.
+// PROMISES = Promises (ou promessa) são uma das maneiras de lidar com operações assíncronas em JavaScript.
+//Uma promise é semelhante a uma promessa da vida real: quando fazemos uma promessa na vida real,
+//é uma garantia de que faremos algo no futuro. Podem ser "pending" ( estado inicial, antes de receber algum resultado;)
+//"resolved" (Promessa cumprida) ou "rejected" (Promessa fracassada).
