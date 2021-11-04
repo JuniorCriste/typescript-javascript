@@ -146,6 +146,7 @@ class Modelo extends Carro {
 
 let carromod = new Modelo("Chevrolet", "Blazer");
 carromod.mostre();
+console.log(carromod.mostre());
 
 
 

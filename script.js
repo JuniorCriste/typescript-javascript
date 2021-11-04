@@ -122,3 +122,4 @@ var Modelo = /** @class */ (function (_super) {
 }(Carro));
 var carromod = new Modelo("Chevrolet", "Blazer");
 carromod.mostre();
+console.log(carromod.mostre());
