@@ -103,3 +103,18 @@ do {
 } while(contador <= 100);
 
 
+
+/* 3. Classes */
+class Carro {
+    nomedocarro: string;
+
+    public constructor(marca: string) {
+        this.nomedocarro = marca;
+    }
+
+    public present() {
+        return "Eu tenho um" + this.nomedocarro;
+    }
+}
+
+
