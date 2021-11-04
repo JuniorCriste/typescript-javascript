@@ -128,5 +128,11 @@ console.log(meucarro.apresentacao());
 
 
 /* 5. Heranças */
-// Uma classe criada com uma herança, herda todos os métodos de outra classe, e é útil para reutilização de código. Para criar uma herança de classe, use a palavra-chave extends. A sintaxe básica para estender uma classe é:
+// Uma classe criada com uma herança, herda todos os métodos de outra classe,
+// e é útil para reutilização de código. Para criar uma herança de classe,
+// use a palavra-chave extends. A sintaxe básica para estender uma classe é:
+
+
+
+
 
