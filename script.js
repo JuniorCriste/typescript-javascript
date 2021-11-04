@@ -76,3 +76,13 @@ do {
     console.log("número " + contador);
     contador += 5;
 } while (contador <= 100);
+/* 3. Classes */
+var Carro = /** @class */ (function () {
+    function Carro(marca) {
+        this.nomedocarro = marca;
+    }
+    Carro.prototype.present = function () {
+        return "Eu tenho um" + this.nomedocarro;
+    };
+    return Carro;
+}());
