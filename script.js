@@ -81,11 +81,11 @@ var Carro = /** @class */ (function () {
     function Carro(marca) {
         this.nomedocarro = marca;
     }
-    Carro.prototype.present = function () {
+    Carro.prototype.apresentacao = function () {
         return "Eu tenho um " + this.nomedocarro;
     };
     return Carro;
 }());
-var meucarro = new Carro("Honda Civic");
-meucarro.present();
-console.log(meucarro.present());
+var meucarro = new Carro("Amarok"); //Cria o objeto "Carro", armazenando ele na variável "meucarro" e passa "marca" como parâmetro.
+meucarro.apresentacao();
+console.log(meucarro.apresentacao());

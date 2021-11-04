@@ -112,14 +112,14 @@ class Carro {
         this.nomedocarro = marca;
     }
 
-    public present() {
+    public apresentacao() {
         return "Eu tenho um " + this.nomedocarro;
     }
 }
 
-let meucarro = new Carro("Honda Civic");
+let meucarro = new Carro("Amarok"); //Cria o objeto "Carro", armazenando ele na variável "meucarro" e passa "marca" como parâmetro.
 
-meucarro.present();
+meucarro.apresentacao();
 
 
-console.log(meucarro.present());
+console.log(meucarro.apresentacao());
