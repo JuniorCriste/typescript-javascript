@@ -1,3 +1,6 @@
+//ANOTAÇÕES: Usar "tsc script.ts" para gerar javascript. 
+
+
 /* 1. Funções e Variáveis */
 console.log("1. Variáveis e Funções");
 

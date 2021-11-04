@@ -1,3 +1,4 @@
+//ANOTAÇÕES: Usar "tsc script.ts" para gerar javascript. 
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
