@@ -82,7 +82,7 @@ var Carro = /** @class */ (function () {
         this.nomedocarro = marca;
     }
     Carro.prototype.present = function () {
-        return "Eu tenho um" + this.nomedocarro;
+        return "Eu tenho um " + this.nomedocarro;
     };
     return Carro;
 }());
