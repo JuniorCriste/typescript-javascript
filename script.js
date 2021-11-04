@@ -1,3 +1,18 @@
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (Object.prototype.hasOwnProperty.call(b, p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        if (typeof b !== "function" && b !== null)
+            throw new TypeError("Class extends value " + String(b) + " is not a constructor or null");
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 /* 1. Funções e Variáveis */
 console.log("1. Variáveis e Funções");
 function media(num1, num2) {
@@ -76,7 +91,7 @@ do {
     console.log("número " + contador);
     contador += 5;
 } while (contador <= 100);
-/* 3. Classes */
+/* 4. Classes */
 var Carro = /** @class */ (function () {
     function Carro(marca) {
         this.nomedocarro = marca;
@@ -89,3 +104,21 @@ var Carro = /** @class */ (function () {
 var meucarro = new Carro("Amarok"); //Cria o objeto "Carro", armazenando ele na variável "meucarro" e passa "marca" como parâmetro.
 meucarro.apresentacao();
 console.log(meucarro.apresentacao());
+/* 5. Heranças */
+// Uma classe criada com uma herança, herda todos os métodos de outra classe,
+// e é útil para reutilização de código. Para criar uma herança de classe,
+// use a palavra-chave extends. A sintaxe básica para estender uma classe é:
+var Modelo = /** @class */ (function (_super) {
+    __extends(Modelo, _super);
+    function Modelo(marca, mod) {
+        var _this = _super.call(this, marca) || this;
+        _this.modelo = mod;
+        return _this;
+    }
+    Modelo.prototype.mostre = function () {
+        return this.apresentacao() + ' ' + this.modelo;
+    };
+    return Modelo;
+}(Carro));
+var carromod = new Modelo("Chevrolet", "Blazer");
+carromod.mostre();

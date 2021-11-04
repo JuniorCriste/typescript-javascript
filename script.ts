@@ -132,7 +132,20 @@ console.log(meucarro.apresentacao());
 // e é útil para reutilização de código. Para criar uma herança de classe,
 // use a palavra-chave extends. A sintaxe básica para estender uma classe é:
 
+class Modelo extends Carro {
+    private modelo: string;
+    constructor(marca: string, mod: string) {
+        super(marca); //chama constructor pai.
+        this.modelo = mod;
+    }
 
+    mostre() {
+        return this.apresentacao() + ' ' + this.modelo;
+    }
+}
+
+let carromod = new Modelo("Chevrolet", "Blazer");
+carromod.mostre();
 
 
 
