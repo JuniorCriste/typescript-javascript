@@ -117,4 +117,9 @@ class Carro {
     }
 }
 
+let meucarro = new Carro("Honda Civic");
 
+meucarro.present();
+
+
+console.log(meucarro.present);

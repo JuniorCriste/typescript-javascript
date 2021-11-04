@@ -86,3 +86,6 @@ var Carro = /** @class */ (function () {
     };
     return Carro;
 }());
+var meucarro = new Carro("Honda Civic");
+meucarro.present();
+console.log(meucarro.present);
