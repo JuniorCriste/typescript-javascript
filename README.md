@@ -7,4 +7,4 @@
 
 
 
-#### [Anotações importantes](/blob/master/anotacoes.htm)
+#### [Anotações importantes](/anotacoes.htm)
