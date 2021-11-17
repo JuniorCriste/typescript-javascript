@@ -6,14 +6,10 @@
 ### Site: [Acesso](https://mooc.cefor.ifes.edu.br/moodle/course/view.php?id=126)
 
 
-#### Anotações:
-##### Criando Projeto:
+### Anotações:
+#### Criando Projeto:
 ##### ionic start nome template
 ##### Exemplo:
+<h4><pre> ionic start cobaia tabs </pre></h4>
 
-##### ionic start cobaia tabs
-##### Escolha uma framework javascript para usar.
-
-
-
-#### [Mais anotações importantes](/anotacoes.htm)
+### [Mais anotações importantes](/anotacoes.htm)
