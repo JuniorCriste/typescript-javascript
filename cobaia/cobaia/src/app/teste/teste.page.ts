@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-teste',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestePage implements OnInit {
 
-  constructor() { }
+  public nome : string;
+
+  constructor(private activatedRouted: ActivatedRoute) { }
 
   ngOnInit() {
+    this.nome = this.activatedRouted.snapshot.paramMap.get('info');
   }
 
 }
