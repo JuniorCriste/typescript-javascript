@@ -14,11 +14,10 @@ export class HomePage {
   constructor(private servicoService: ServicoService) {}
 
   ngOnInit() {
-    
     this.servicoService.getCars().subscribe(
       (value) => this.cars = value,
-      (error) => console.log(console.log(error)
-      ))
+      (e) => console.log(e)
+       )
   }
 
 
