@@ -8,8 +8,8 @@
 
 ### Anotações:
 #### Criando Projeto:
-##### ionic start nome template
+<h4><pre> ionic start <b>[nome]</b> <b>[template]</b> </pre></h4>
 ##### Exemplo:
-<h4><pre> ionic start cobaia tabs </pre></h4>
+<h4><pre> ionic start <b>cobaia</b> <b>tabs</b> </pre></h4>
 
 ### [Mais anotações importantes](/anotacoes.htm)
