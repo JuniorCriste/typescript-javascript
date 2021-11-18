@@ -1,3 +1,5 @@
+import { ServicoService } from './../servico.service';
+import { NgStyle } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +9,18 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  public cars : any;
+
+  constructor(private servicoService: ServicoService) {}
+
+  ngOnInit() {
+    
+    this.servicoService.getCars().subscribe(
+      (value) => this.cars = value,
+      (error) => console.log(console.log(error)
+      ))
+  }
+
+
 
 }
