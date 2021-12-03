@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor(private servicesservice : ServicesService) {}
+  constructor(public servicesservice : ServicesService) {
+    this.servicesservice.setObject();
+  }
 
 }
