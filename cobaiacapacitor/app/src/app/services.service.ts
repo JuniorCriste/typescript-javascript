@@ -9,8 +9,8 @@ import { Storage } from '@capacitor/storage';
 })
 export class ServicesService {
 
-  obj : Array<any> = [{nome:"Junior", sobrenome: "Criste"}, {nome:"Pablo", sobrenome: "Victorious"}, 
-  {nome:"Paloma", sobrenome: "Sivanete"}];
+ obj : Array<any> = [{nome:"Junior", sobrenome: "Criste"}, {nome:"Pablo", sobrenome: "Victorious"},   {nome:"Paloma", sobrenome: "Sivanete"}]; 
+ // obj : Array<any> ;
 
   constructor() { }
 
@@ -40,5 +40,5 @@ async getObject(){
   console.log(user);
 }
 
-
+  
 }
