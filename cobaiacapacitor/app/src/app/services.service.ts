@@ -37,6 +37,7 @@ async setObject(){
 async getObject(){
   const ret = await Storage.get({ key: 'user'});
   const user = JSON.parse(ret.value);
+  console.log(user);
 }
 
 

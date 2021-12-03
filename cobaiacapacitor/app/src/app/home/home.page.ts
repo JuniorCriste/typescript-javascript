@@ -10,6 +10,7 @@ export class HomePage {
 
   constructor(public servicesservice : ServicesService) {
     this.servicesservice.setObject();
+    this.servicesservice.getObject();
   }
 
 }
