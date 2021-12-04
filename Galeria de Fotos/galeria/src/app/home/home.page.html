@@ -6,7 +6,20 @@
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content [fullscreen]="true">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let foto of fotoservice.fotos; index as position">
+        <ion-img src="{{foto.webviewPath}}"></ion-img>
+      </ion-col>       
+    </ion-row>
+  </ion-grid>
+
+
+
+
   <ion-fab vertical="bottom" horizontal="center" slot="fixed">
     <ion-fab-button (click)="fotoservice.addNewGallery()">
       <ion-icon name="camera"></ion-icon>

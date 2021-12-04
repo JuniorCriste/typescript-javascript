@@ -7,6 +7,10 @@ import { Storage } from '@capacitor/storage';
 })
 export class FotoService {
 
+
+  public fotos: Foto[] = [];
+
+
   constructor() { }
   
    addNewGallery = async () => {
@@ -16,6 +20,14 @@ export class FotoService {
       //allowEditing: true,
       quality: 100
     });
+    this.fotos.unshift({
+      webviewPath: capturedPhoto.webPath
+    })
   }
 
+}
+
+export interface Foto {
+  webviewPath: string;
+  base64?: String;
 }
