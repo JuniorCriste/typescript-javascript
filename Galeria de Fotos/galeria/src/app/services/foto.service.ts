@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
-import { Storage } from '@capacitor/storage';
+
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +17,6 @@ export class FotoService {
     const capturedPhoto = await Camera.getPhoto({
       resultType: CameraResultType.Uri,
       source: CameraSource.Camera,
-      //allowEditing: true,
       quality: 100
     });
     this.fotos.unshift({
@@ -26,7 +25,7 @@ export class FotoService {
   }
 
   public deleteFoto(index: number) {
-    this.fotos.slice(index, 1);
+    this.fotos.splice(index, 1);
   }
 }
 
