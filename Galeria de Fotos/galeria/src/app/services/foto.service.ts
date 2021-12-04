@@ -25,6 +25,9 @@ export class FotoService {
     })
   }
 
+  public deleteFoto(index: number) {
+    this.fotos.slice(index, 1);
+  }
 }
 
 export interface Foto {
