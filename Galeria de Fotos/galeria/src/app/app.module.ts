@@ -13,7 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
-  FotoService],
+  FotoService, FotoService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
